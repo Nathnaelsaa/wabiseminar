@@ -1,0 +1,52 @@
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --ext .js,.jsx"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "@mediapipe/selfie_segmentation": "^0.1.1675465747",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.10.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "google-auth-library": "^10.6.2",
+    "googleapis": "^171.4.0",
+    "jsonwebtoken": "^9.0.3",
+    "knex": "^3.2.10",
+    "lucide-react": "^0.475.0",
+    "motion": "^12.4.3",
+    "multer": "^2.2.0",
+    "mysql2": "^3.22.3",
+    "peerjs": "^1.5.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.1",
+    "recharts": "^3.8.1",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
+    "uuid": "^11.0.5",
+    "vite": "^6.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}
